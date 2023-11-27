@@ -237,7 +237,55 @@ header .mobile {
     font-size: 1.25rem;
 }
 
+/* Thesis*/
 
+#thesis {
+    background-color: ghostwhite;
+    padding: 2rem 0 2rem 1.5rem;
+}
+
+#thesis h2 {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+#thesis-box {
+    display: flex;
+    padding-top: 2rem;
+}
+
+#thesis-video {
+    width: 55%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#thesis .image-box {
+    max-width: 32%;
+    margin: 1rem;
+}
+
+#thesis .content h3 {
+    margin: 1rem 0;
+}
+
+.exhibit-box {
+    width: 45%;
+    margin-left: 2rem;
+}
+
+.exhibit-box .content {
+    margin-left: 0.5rem;
+}
+
+#thesis .mobile {
+    display: none;
+}
 
 
 /* Footer section */
