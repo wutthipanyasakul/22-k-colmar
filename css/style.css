@@ -27,6 +27,31 @@ main, footer {
     float: right;
 }
 
+h1 {
+    font-size: 3.125rem ;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+
 /*Header Section */
 
 header {
@@ -80,6 +105,31 @@ header .mobile {
     display: none;
 }
 
+@media only screen and (max-width: 650px) {
+
+    header .desktop {
+        display: none;
+    }
+    
+    header .mobile {
+        text-align: center;
+        width: 100%;
+        height: 64px;
+        display: block;
+        
+    }
+
+    header .mobile img {
+        height: 3.5rem;
+        width: auto;
+        vertical-align: middle;
+    }
+
+    header li {
+        margin: 0 4rem;
+    }
+}
+
 /* Introduction Section */
 
 #intro {
@@ -117,6 +167,40 @@ header .mobile {
     padding: 8px;
     box-shadow: 5px 5px 20px darkslategrey;
     transition: all 0.5s ease-in 0.1s;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    #intro-image {
+        min-width: 90%;
+    }
+
+    #intro {
+        flex-flow: column;
+    }
+
+    #intro .content {
+        width: 70%;
+        padding: 0 1rem 2rem;
+    }
+
+    .button {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #intro-image {
+        width: 100%;
+        margin: auto;
+    }
+
+    #intro .content {
+        padding: 2rem 0;
+    }
+
 }
 
 /* Campus Introduction */
